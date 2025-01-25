@@ -13,7 +13,7 @@ from pydexcom import Dexcom
 def calculate_delta(current_bg, previous_bg):
     return current_bg - previous_bg
 
-dexcom = Dexcom("USERNAME HERE", "PASWORD HERE", ous=True)
+dexcom = Dexcom(username="USERNAME HERE", passowrd="PASWORD HERE") # region="ous" if outside US
 
 latest_readings = dexcom.get_glucose_readings(minutes=10, max_count=2)
 current_bg_value = latest_readings[0].mmol_l
