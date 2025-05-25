@@ -5,7 +5,7 @@ from pydexcom import Dexcom
 def calculate_delta(current_bg, previous_bg):
     return current_bg - previous_bg
 
-dexcom = Dexcom("username", "password", ous=True)
+dexcom = Dexcom(username="username", password="password", region="ous")
 
 try:
     latest_readings = dexcom.get_glucose_readings(minutes=10, max_count=2)
