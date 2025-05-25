@@ -69,8 +69,8 @@ Then running it through waybar can be done as follows:
   },
 ```
 
-Each time the bg updates, the module will dissapear for a few seconds as the api is retrieving a new bg reading.\
-If you can think of any ways to improve this please feel welcome to make a pr. [Gagebenne's](https://github.com/gagebenne) pydexcom api provides the possibility for some more functionality, which can be found [here](https://gagebenne.github.io/pydexcom/pydexcom.html).\
+Each time the bg updates, the module will display '---' for a few seconds as the api is retrieving a new bg reading.\
+ [Gagebenne's](https://github.com/gagebenne) pydexcom api provides the possibility for some more functionality, which can be found [here](https://gagebenne.github.io/pydexcom/pydexcom.html). 
 
 For more complete experience, see my other project: [DexViewer](https://github.com/narmis-e/dexviewer).
  
